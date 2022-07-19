@@ -28,16 +28,6 @@ html {
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
 img {
     display: block;
     max-width: 100%;
@@ -214,6 +204,11 @@ body {
 
 /* Feature */
 
+.features-section {
+    padding-top: 94px;
+    padding-bottom: 47px;
+}
+
 .features {
     display: none;
 }
@@ -251,6 +246,11 @@ body {
 }
 
 /* Efforts */
+
+.efforts-section {
+    padding-top: 47px;
+    padding-bottom: 94px;
+}
 
 .efforts {
     display: flex;
